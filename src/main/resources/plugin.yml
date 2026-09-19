@@ -1,0 +1,15 @@
+name: RandomEventsEngine
+version: '0.9.0'
+main: com.github.blackscorpyon04.randomEventsEngine.RandomEventsEngine
+api-version: '1.21'
+authors: [ BlackScorpyon04 ]
+description: Provides useful addtions when play hypixel skyblock
+commands:
+  re:
+    description: Random Events controls
+    usage: /re start [preset] | /re stop | /re list | /re setdefault <name> | /re events | /re fire <eventId> [--force]
+permissions:
+  randomevents.start:
+    default: op
+  randomevents.stop:
+    default: op
